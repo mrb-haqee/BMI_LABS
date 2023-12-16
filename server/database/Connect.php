@@ -1,9 +1,9 @@
 <?php
 // Konfigurasi koneksi database
-$host = 'localhost'; // Ganti dengan host database Anda
-$database = 'bmilabs'; // Ganti dengan nama database Anda
-$username = 'root'; // Ganti dengan username database Anda
-$password = 'mrb28'; // Ganti dengan password database Anda
+$host = getenv('DB_HOST');
+$database = getenv('DB_DATABASE');
+$username = getenv('DB_USERNAME');
+$password = getenv('DB_PASSWORD');
 
 try {
     // Buat koneksi PDO
@@ -14,5 +14,4 @@ try {
 } catch (PDOException $e) {
     die("Koneksi database gagal: " . $e->getMessage());
 }
-
 

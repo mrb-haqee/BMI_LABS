@@ -29,11 +29,11 @@ try {
 
 try {
     $data = [
-        ['rafli@email', 30, 'obese', '2023-10-30'],
+        ['rafli@email', 30, 'obesity', '2023-10-30'],
         ['rafli@email', 18, 'underweight', '2023-10-31'],
         ['rafli@email', 20, 'normal', '2023-11-01'],
         ['rafli@email', 24, 'overweight', '2023-11-02'],
-        ['rafli@email', 35, 'obese', '2023-11-03'],
+        ['rafli@email', 35, 'obesity', '2023-11-03'],
     ];
 
     // Loop untuk memasukkan data dummy
